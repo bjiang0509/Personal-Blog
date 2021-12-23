@@ -1,0 +1,127 @@
+/*Done*/
+body.post-body{
+    background-color: white;
+    background-image: none;
+}
+
+header > img {
+    width: 100vw;
+    height: 25vh;
+}
+
+section.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+    border-color:thistle
+}
+
+section.author-info {
+    width: 100%;
+}
+
+section.author-info > h2{
+    text-decoration: none;
+}
+
+div.avatar-personal > img.avatar {
+    border-radius: 50%;
+    margin-right: 0px;
+    margin-left: 10px;
+    border-style: solid;
+    border-color: green;
+}
+
+div.avatar-personal {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+
+div.avatar-personal > img {
+    padding: 0;
+    margin: 0;
+}
+
+div.infos {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+
+section.author-info > h2 {
+    font-size: 5vw;
+    margin-bottom: 15px;
+}
+
+section > h4 {
+    font-size: 2vw;
+    margin: 0;
+    padding: 0;
+    color: blue;
+}
+
+section.main-text > p {
+    font-size: 3vw;
+    text-indent: 2em;
+    text-align: justify;
+}
+
+a[href="homepage.html"] {
+    color: purple;
+    font-size: 3.2vw;
+    padding-bottom: 10px;
+}
+
+@media only screen and (min-width: 688px){
+    section.name-date {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+    }
+    
+    div.avatar-personal > img.avatar {
+        width: 70px;
+        height: 70px;
+        margin-right: 15px;
+        margin-left: 10px;
+    }
+
+}
+
+@media only screen and (min-width: 992px) {
+    header > img {
+        width: 100vw;
+        height: 18vh;
+    }
+    
+    section.author-info > h2 {
+        font-size: 28px;
+        margin-bottom: 15px;
+    }
+
+    div.infos {
+        padding: 7px;
+    }
+    
+    section > h4 {
+        font-size: 13px;
+    }
+    
+    section.main-text > p {
+        font-size: 14px;
+    }
+
+    a[href="homepage.html"] {
+        font-size: 16px;
+    }
+
+    #main-divide {
+        display: block;
+    }
+}

@@ -1,0 +1,81 @@
+/*Done*/
+/*style for the side bar*/
+section.side {
+    border-style: solid;
+    border-radius: 10px;
+    border-color: rgb(183, 236, 236);
+    margin-bottom: 5%;
+    background-color: lightgrey;
+    color: black;
+    text-align: justify;
+    justify-content: center;
+    align-items: center;
+}
+
+article.side-content {
+    /*top right bottom left*/
+    margin: 0 10px 10px 10px;
+}
+
+article > h2 {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    font-size: 3vw;
+    font-weight: 700;
+}
+
+article > p, ul > p, article > blockquote, article > figcaption{
+    font-size: 2.5vw;
+    text-indent: 2em;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+article > figcaption {
+    text-align: end;
+}
+
+/* Solid border */
+hr.solid {
+    width: 100%;
+    border-top: 3px solid black;
+}
+
+@media only screen and (min-width:992px) {
+    section.side {
+        width: 100%;
+        height: 100%;
+        border: none;
+        margin-top: 5%;
+        margin-bottom: 2%;
+        background-color: transparent;
+        align-items: flex-end;
+    }
+
+    div.side-container {
+        display: flex;
+        flex-direction: column;
+        width: 98%;
+        height: 100%;
+        margin: 10px;
+        border-radius: 10px;
+        background-color: lightgrey;
+    }
+
+    hr {
+        display:none;
+    }
+    
+    article > h2 {
+        font-size: 12px;
+    }
+    
+    article > p, ul > p, article > blockquote, article > figcaption {
+        font-size: 10px;
+    }
+}
