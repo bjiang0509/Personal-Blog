@@ -36,7 +36,7 @@ ul {
     padding: 0;
 }
 
-article > figcaption {
+blockquote > p {
     text-align: end;
 }
 

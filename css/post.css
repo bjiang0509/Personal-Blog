@@ -58,17 +58,36 @@ section.author-info > h2 {
     margin-bottom: 15px;
 }
 
-section > h4 {
+section > h4, div.infos > h4 {
     font-size: 2vw;
     margin: 0;
     padding: 0;
     color: blue;
 }
 
-section.main-text > p {
+section.main-text > p, section.main-text > blockquote{
     font-size: 3vw;
     text-indent: 2em;
     text-align: justify;
+    font-weight: 200;
+}
+
+figure.img-box > figcaption {
+    font-size: 1em;
+}
+
+figure.img-box{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 20px 20px 0;
+}
+
+figure.img-box > img {
+    width: 70%;
+    height: 40%;
 }
 
 a[href="homepage.html"] {
@@ -109,11 +128,15 @@ a[href="homepage.html"] {
         padding: 7px;
     }
     
-    section > h4 {
+    section > h4, div.infos > h4 {
         font-size: 13px;
     }
+
+    figure.img-box > figcaption {
+        font-size: 10px;
+    }
     
-    section.main-text > p {
+    section.main-text > p, section.main-text > blockquote{
         font-size: 14px;
     }
 
