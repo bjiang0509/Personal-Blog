@@ -5,8 +5,6 @@
 @import "aligning.css";
 @import "post.css";
 
-/** { box-sizing: border-box; }*/
-
 /*layout for the homepage (mobile version)*/
 body {
     margin: 0;
