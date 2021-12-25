@@ -9,22 +9,22 @@ div > h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    color:white;
+    color: white;
 }
 
 section > button {
     width: 80px;
     font-size: 10px;
-    color:blue;
+    color: blue;
     cursor: pointer;
 }
 
 section > i {
-    color:white;
+    color: white;
 }
 
 section > span {
-    color:white;
+    color: white;
     margin-right: 10px;
 }
 
