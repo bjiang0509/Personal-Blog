@@ -20,12 +20,12 @@ article.side-content {
 article > h2 {
     margin-bottom: 0;
     padding-bottom: 0;
-    font-size: 3vw;
+    font-size: 12px;
     font-weight: 700;
 }
 
 article > p, ul > p, article > blockquote, article > figcaption{
-    font-size: 2.5vw;
+    font-size: 10px;
     text-indent: 2em;
     margin: 0;
     padding: 0;
@@ -44,6 +44,16 @@ blockquote > p {
 hr.solid {
     width: 100%;
     border-top: 3px solid black;
+}
+
+@media only screen and (min-width:688px) {
+    article > h2 {
+        font-size: 16px;
+    }
+    
+    article > p, ul > p, article > blockquote, article > figcaption{
+        font-size: 12px;
+    }
 }
 
 @media only screen and (min-width:992px) {
@@ -72,10 +82,10 @@ hr.solid {
     }
     
     article > h2 {
-        font-size: 12px;
+        font-size: 16px;
     }
     
     article > p, ul > p, article > blockquote, article > figcaption {
-        font-size: 10px;
+        font-size: 12px;
     }
 }

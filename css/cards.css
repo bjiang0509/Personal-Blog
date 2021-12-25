@@ -47,14 +47,14 @@ article > img {
 /*title of the blog on car*/
 section > h2 {
     padding-top: 5px;
-    font-size: 3.2vw;
+    font-size: 12px;
     text-decoration: underline;
     margin: 0;
 }
 
 /*author info on card*/
 div > h3, section > h3 {
-    font-size: 2.5vw;
+    font-size: 10px;
     color: blue;
     margin: 0;
 }
@@ -157,16 +157,20 @@ article > a {
     }
 
     section > h2 {
-        font-size: 15px;
+        font-size: 16px;
     }
     
     div > h3, section > h3 {
-        font-size: 8px;
+        font-size: 12px;
         color: blue;
     }
     
     article > a {
         color: red;
-        font-size: 10px;
+        font-size: 12px;
+    }
+
+    .avatar {
+        margin-top: 15px;
     }
 }

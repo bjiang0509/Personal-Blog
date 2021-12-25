@@ -13,8 +13,8 @@ div > h1 {
 }
 
 section > button {
-    width: 18vw;
-    font-size: 3vw;
+    width: 80px;
+    font-size: 10px;
     color:blue;
     cursor: pointer;
 }
@@ -57,8 +57,7 @@ section.search{
     }
 
     section > button{
-        width: 10vw;
-        font-size: 2vw;
+        font-size: 12px;
         padding: 0;
     }
 
@@ -83,12 +82,7 @@ section.search{
     }
 
     div > h1 {
-        font-size: 3vw;
-    }
-
-    section > button{
-        width: 80px;
-        font-size: 12px;
+        font-size: 36px;
     }
 
     section.sub-button{
