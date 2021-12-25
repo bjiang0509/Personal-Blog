@@ -42,7 +42,7 @@ div.avatar-personal {
 
 div.avatar-personal > img {
     padding: 0;
-    margin: 0;
+    margin: 4px 0 0 0;
 }
 
 div.infos {
@@ -54,26 +54,26 @@ div.infos {
 }
 
 section.author-info > h2 {
-    font-size: 5vw;
+    font-size: 20px;
     margin-bottom: 15px;
 }
 
 section > h4, div.infos > h4 {
-    font-size: 2vw;
+    font-size: 9px;
     margin: 0;
     padding: 0;
     color: blue;
 }
 
 section.main-text > p, section.main-text > blockquote{
-    font-size: 3vw;
+    font-size: 12px;
     text-indent: 2em;
     text-align: justify;
     font-weight: 200;
 }
 
 figure.img-box > figcaption {
-    font-size: 1em;
+    font-size: 10px;
 }
 
 figure.img-box{
@@ -92,7 +92,7 @@ figure.img-box > img {
 
 a[href="homepage.html"] {
     color: purple;
-    font-size: 3.2vw;
+    font-size: 12px;
     padding-bottom: 10px;
 }
 
@@ -107,8 +107,32 @@ a[href="homepage.html"] {
     div.avatar-personal > img.avatar {
         width: 70px;
         height: 70px;
-        margin-right: 15px;
-        margin-left: 10px;
+        margin: 0 15px 0 15px;
+    }
+
+    section.author-info > h2 {
+        font-size: 28px;
+    }
+
+    div.infos {
+        padding-top: 8px;
+    }
+
+    section > h4, div.infos > h4 {
+        font-size: 12px;
+        padding-top: 2px;
+    }
+    
+    section.main-text > p, section.main-text > blockquote{
+        font-size: 14px;
+    }
+    
+    figure.img-box > figcaption {
+        font-size: 12px;
+    }
+
+    a[href="homepage.html"] {
+        font-size: 14px;
     }
 
 }
@@ -116,32 +140,12 @@ a[href="homepage.html"] {
 @media only screen and (min-width: 992px) {
     header > img {
         width: 100vw;
-        height: 18vh;
+        height: 15vh;
     }
     
     section.author-info > h2 {
-        font-size: 28px;
+        font-size: 32px;
         margin-bottom: 15px;
-    }
-
-    div.infos {
-        padding: 7px;
-    }
-    
-    section > h4, div.infos > h4 {
-        font-size: 13px;
-    }
-
-    figure.img-box > figcaption {
-        font-size: 10px;
-    }
-    
-    section.main-text > p, section.main-text > blockquote{
-        font-size: 14px;
-    }
-
-    a[href="homepage.html"] {
-        font-size: 16px;
     }
 
     #main-divide {

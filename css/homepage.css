@@ -65,7 +65,7 @@ footer > p {
     body {
         display: grid;
         grid-template-columns: 1fr minmax(400px, 750px) minmax(50px, 150px) 1fr;
-        column-gap: 10px;
+        column-gap: 30px;
         row-gap: 25px;
         grid-template-areas: 
         "header header header header"
